@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+
+<body>
+    <div>
+        <h1>travel form of our trip</h1>
+        <!-- form action goes to backend  -->
+        <form action="form.php"></form>
+        <!-- <input type="text"> :- a  box created for user to write something, and inside placeholder write something which will show inside box util user start writing inside box (basically write hint for user) -->
+        <input type="text" placeholder="enter your name here">
+        <br>
+        <!-- radio button will enable in your website, it is like you can select only one button at a time,( like in old radio or tape recorder have ) -->
+        <!-- 'for' and 'id' will be same  -->
+        <label for="sectionida">
+            <input type="radio" value="section a" name="section" id="sectionida"> section a boys
+        </label>
+        <!-- id is unique for each radio button,, section a boys and section b girls will print with radio button. ( html , css , javascript used for frontend development )-->
+        <label for="sectionidb">
+            <input type="radio" value="section b" name="section" id="sectionidb"> section b girls
+        </label>
+        <!-- we are giving same name for those radio button which will works together  -->
+        <label for="sectionidc">
+            <input type="radio" value="section a" name="section" id="sectionidc"> section c other
+        </label>
+
+    </div>
+    <div>
+        <label for="secda">
+            <input type="radio" value="sec a" name="sec" id="secida"> section a boys
+        </label>
+        <label for="secidb">
+            <input type="radio" value="sec b" name="sec" id="secidb"> section b girls
+        </label>
+    </div>
+
+
+</body>
+
+</html>
